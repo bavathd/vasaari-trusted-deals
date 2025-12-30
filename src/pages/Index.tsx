@@ -15,14 +15,17 @@ const Index = () => {
     <>
       <Helmet>
         <title>Vasaari - Create. Deal. Deliver. Securely.</title>
-        <meta 
-          name="description" 
-          content="Vasaari is a trusted vendor marketplace where people can create custom services, collaborate with others, and manage deals with complete clarity and transparency." 
+        <meta
+          name="description"
+          content="Vasaari is a trusted vendor marketplace where people can create custom services, collaborate with others, and manage deals with complete clarity and transparency."
         />
-        <meta name="keywords" content="marketplace, collaboration, vendor platform, freelance, services, deals, transparency" />
+        <meta
+          name="keywords"
+          content="marketplace, collaboration, vendor platform, freelance, services, deals, transparency"
+        />
         <link rel="canonical" href="https://vasaari.com" />
       </Helmet>
-      
+
       <div className="min-h-screen bg-background">
         <Navbar />
         <main>
