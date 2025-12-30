@@ -1,33 +1,40 @@
-import { FileText, Lock, CheckCircle, AlertTriangle } from "lucide-react";
+import { FileText, MessageCircle, CheckCircle, AlertTriangle, Timer } from "lucide-react";
 
 const steps = [
   {
     icon: FileText,
     number: "01",
-    title: "Create a Deal",
-    description: "Set up a service with clear details — price, delivery expectations, terms, and timelines.",
+    title: "Create Your Service / Deal",
+    description: "Users define the service, expectations, details, and timelines.",
     color: "from-blue-500 to-blue-600",
   },
   {
-    icon: Lock,
+    icon: MessageCircle,
     number: "02",
-    title: "Secure Locked Payment",
-    description: "The buyer pays upfront, and the amount is held safely by Vasaari until the work is completed.",
+    title: "Collaborate & Track Progress",
+    description: "Both parties can communicate, update status, and keep the deal organized and documented inside the app.",
     color: "from-primary to-primary-glow",
   },
   {
     icon: CheckCircle,
     number: "03",
-    title: "Deliver & Request Release",
-    description: "Once the vendor finishes the work, they request a Release of payment. The buyer confirms, and the amount is released instantly.",
+    title: "Delivery & Confirmation",
+    description: "Once the vendor completes the service, they notify the buyer. The buyer reviews and confirms the completion inside the app.",
     color: "from-emerald-500 to-emerald-600",
   },
   {
     icon: AlertTriangle,
     number: "04",
-    title: "Refunds & Disputes",
-    description: "If the vendor fails to deliver, the buyer can request a refund. If the buyer refuses to release payment, the vendor can raise a dispute. Automated systems ensure fairness on both sides.",
+    title: "Dispute Handling for Clarity",
+    description: "If either party disagrees or faces an issue, they can raise a dispute ticket. The platform helps provide a structured space for resolving misunderstandings.",
     color: "from-amber-500 to-amber-600",
+  },
+  {
+    icon: Timer,
+    number: "05",
+    title: "Automated Rules for Transparency",
+    description: "If a request is unanswered for 15 days, it is auto-accepted. If both parties remain inactive for 45 days, the deal is automatically closed.",
+    color: "from-purple-500 to-purple-600",
   },
 ];
 
@@ -47,20 +54,20 @@ const HowItWorks = () => {
             How It Works
           </span>
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Simple. Secure.{" "}
+            Simple. Structured.{" "}
             <span className="text-gradient">Seamless.</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Four easy steps to complete any deal with complete peace of mind.
+            Five easy steps to manage any deal with complete clarity and organization.
           </p>
         </div>
 
         {/* Steps */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {steps.map((step, index) => (
             <div
               key={step.number}
-              className="group relative opacity-0 animate-fade-in-up"
+              className={`group relative opacity-0 animate-fade-in-up ${index === 4 ? 'lg:col-start-2' : ''}`}
               style={{ animationDelay: `${0.2 + index * 0.1}s`, animationFillMode: 'forwards' }}
             >
               <div className="bg-card rounded-3xl p-6 h-full border border-border/50 hover:border-primary/30 hover:shadow-card transition-all duration-300 relative overflow-hidden">
@@ -87,11 +94,6 @@ const HowItWorks = () => {
                   </p>
                 </div>
               </div>
-
-              {/* Connector line (hidden on last item) */}
-              {index < steps.length - 1 && (
-                <div className="hidden lg:block absolute top-1/2 -right-3 w-6 h-0.5 bg-gradient-to-r from-primary/30 to-transparent" />
-              )}
             </div>
           ))}
         </div>

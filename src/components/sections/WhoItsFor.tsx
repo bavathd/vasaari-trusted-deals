@@ -2,12 +2,12 @@ import { Palette, Wrench, GraduationCap, Store, Hammer, Calendar, Handshake } fr
 
 const audiences = [
   { icon: Palette, label: "Freelancers & gig workers" },
-  { icon: Wrench, label: "Technicians & repair services" },
+  { icon: Wrench, label: "Technicians & repair experts" },
   { icon: GraduationCap, label: "Tutors, trainers & creators" },
-  { icon: Store, label: "Small businesses" },
+  { icon: Store, label: "Small vendors & local businesses" },
   { icon: Hammer, label: "Custom product makers" },
-  { icon: Calendar, label: "Event managers" },
-  { icon: Handshake, label: "Anyone making random deals online or offline" },
+  { icon: Calendar, label: "Event & service coordinators" },
+  { icon: Handshake, label: "Anyone forming a deal with another person" },
 ];
 
 const WhoItsFor = () => {
@@ -29,7 +29,7 @@ const WhoItsFor = () => {
             <span className="text-gradient">For</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Vasaari is designed for anyone who wants to transact safely.
+            Vasaari is designed for anyone who wants to collaborate with clarity.
           </p>
         </div>
 

@@ -24,14 +24,14 @@ const FinalCTA = () => {
 
           {/* Headline */}
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 opacity-0 animate-fade-in-up" style={{ animationDelay: '0.2s', animationFillMode: 'forwards' }}>
-            Build Trusted Deals.{" "}
+            Build Trusted Collaborations.{" "}
             <br className="hidden md:block" />
             <span className="text-gradient">Anywhere. Anytime.</span>
           </h2>
 
           {/* Description */}
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 opacity-0 animate-fade-in-up" style={{ animationDelay: '0.3s', animationFillMode: 'forwards' }}>
-            A better way to create, work, and transact — backed by clarity and protection.
+            Vasaari gives you the structure and clarity you need to work confidently with anyone.
           </p>
 
           {/* CTA Button */}

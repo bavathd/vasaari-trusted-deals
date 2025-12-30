@@ -1,35 +1,35 @@
-import { Handshake, Vault, Scale, Clock, Timer, BadgeCheck } from "lucide-react";
+import { Handshake, ListChecks, Scale, Clock, Timer, Eye } from "lucide-react";
 
 const mechanisms = [
   {
     icon: Handshake,
-    title: "Mutual Approval System",
-    description: "Money moves only when both parties agree.",
+    title: "Mutual Interaction Framework",
+    description: "Both sides must approve key steps.",
   },
   {
-    icon: Vault,
-    title: "Escrow-Style Protection",
-    description: "Funds remain locked until terms are met.",
+    icon: ListChecks,
+    title: "Structured Progress Tracking",
+    description: "No confusion, no missed updates.",
   },
   {
     icon: Scale,
-    title: "Fair Dispute Resolution",
-    description: "Either party can raise a dispute.",
+    title: "Dispute Resolution System",
+    description: "Issues can be formally addressed.",
   },
   {
     icon: Clock,
-    title: "Auto-Acceptance After 15 Days",
-    description: "Requests ignored for 15 days get accepted automatically.",
+    title: "15-Day Auto-Acceptance Rule",
+    description: "No stalling or uncertainty.",
   },
   {
     icon: Timer,
-    title: "45-Day Inactivity Rule",
-    description: "If both parties are inactive for 45 days, money returns to the original payer.",
+    title: "45-Day Auto-Closure Rule",
+    description: "Inactive deals close automatically.",
   },
   {
-    icon: BadgeCheck,
-    title: "Zero Commission",
-    description: "Full transparency, no hidden charges.",
+    icon: Eye,
+    title: "100% Transparent Workflow",
+    description: "Every action is documented.",
   },
 ];
 
@@ -53,7 +53,7 @@ const SafetyMechanisms = () => {
             <span className="text-gradient">Safety Mechanisms</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Multiple layers of protection ensure fair, secure transactions for everyone.
+            Multiple layers of protection ensure organized, transparent workflows for everyone.
           </p>
         </div>
 

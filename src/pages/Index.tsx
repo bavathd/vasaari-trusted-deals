@@ -17,9 +17,9 @@ const Index = () => {
         <title>Vasaari - Create. Deal. Deliver. Securely.</title>
         <meta 
           name="description" 
-          content="Vasaari is a trusted free-marketplace where anyone can create custom services, make real-world or online deals, and transact safely through a secure intermediary." 
+          content="Vasaari is a trusted vendor marketplace where people can create custom services, collaborate with others, and manage deals with complete clarity and transparency." 
         />
-        <meta name="keywords" content="marketplace, secure payments, escrow, freelance, services, deals" />
+        <meta name="keywords" content="marketplace, collaboration, vendor platform, freelance, services, deals, transparency" />
         <link rel="canonical" href="https://vasaari.com" />
       </Helmet>
       
