@@ -1,4 +1,4 @@
-import { Shield, Users, Zap } from "lucide-react";
+import { Shield, MessageSquare, Workflow } from "lucide-react";
 
 const WhatIsVasaari = () => {
   return (
@@ -14,18 +14,17 @@ const WhatIsVasaari = () => {
               About Vasaari
             </span>
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6 leading-tight">
-              The safest way to make deals with{" "}
-              <span className="text-gradient">anyone.</span>
+              A safe space to build meaningful{" "}
+              <span className="text-gradient">service collaborations.</span>
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-              Vasaari lets people create and manage service-based deals with complete transparency 
-              and secure payments. Whether you meet a vendor on social media, in person, or through 
-              a referral, Vasaari acts as a neutral platform that protects both parties until the 
-              deal is completed.
+              Vasaari helps people create and manage service-based deals in a structured, transparent 
+              environment. Whether you meet a vendor on social media, in person, or through a referral, 
+              Vasaari provides a neutral platform to organize your agreement, track activity, and 
+              ensure every step is clear for both sides.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Create customizable services, accept offers, and transact with peace of mind — 
-              without middlemen, commissions, or hidden charges.
+              Customizable services, simple workflows, and reliable communication — all in one place.
             </p>
           </div>
 
@@ -37,9 +36,9 @@ const WhatIsVasaari = () => {
                   <Shield className="w-7 h-7 text-primary-foreground" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-foreground mb-2">Protected Transactions</h3>
+                  <h3 className="text-xl font-semibold text-foreground mb-2">Neutral Platform</h3>
                   <p className="text-muted-foreground">
-                    Your money is held securely until both parties are satisfied with the deal.
+                    A safe, structured space where both parties can collaborate with confidence.
                   </p>
                 </div>
               </div>
@@ -48,12 +47,12 @@ const WhatIsVasaari = () => {
             <div className="glass-card rounded-3xl p-6 hover:shadow-glow transition-all duration-300 group">
               <div className="flex items-start gap-4">
                 <div className="w-14 h-14 rounded-2xl gradient-primary flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform duration-300">
-                  <Users className="w-7 h-7 text-primary-foreground" />
+                  <Workflow className="w-7 h-7 text-primary-foreground" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-foreground mb-2">Trust Anyone</h3>
+                  <h3 className="text-xl font-semibold text-foreground mb-2">Organized Workflows</h3>
                   <p className="text-muted-foreground">
-                    Deal confidently with strangers from social media, referrals, or real-world encounters.
+                    Track progress, update status, and keep every deal documented inside the app.
                   </p>
                 </div>
               </div>
@@ -62,12 +61,12 @@ const WhatIsVasaari = () => {
             <div className="glass-card rounded-3xl p-6 hover:shadow-glow transition-all duration-300 group">
               <div className="flex items-start gap-4">
                 <div className="w-14 h-14 rounded-2xl gradient-primary flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform duration-300">
-                  <Zap className="w-7 h-7 text-primary-foreground" />
+                  <MessageSquare className="w-7 h-7 text-primary-foreground" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-foreground mb-2">Zero Hidden Fees</h3>
+                  <h3 className="text-xl font-semibold text-foreground mb-2">Reliable Communication</h3>
                   <p className="text-muted-foreground">
-                    No commissions, no surprises. Full transparency in every transaction.
+                    Clear, structured messaging ensures no details are lost or misunderstood.
                   </p>
                 </div>
               </div>

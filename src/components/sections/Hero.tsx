@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Sparkles } from "lucide-react";
+import { ArrowRight, Users } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -16,11 +16,11 @@ const Hero = () => {
         <div className="glass-card p-4 rounded-2xl animate-float">
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-xl gradient-primary flex items-center justify-center">
-              <Sparkles className="w-5 h-5 text-primary-foreground" />
+              <Users className="w-5 h-5 text-primary-foreground" />
             </div>
             <div>
-              <p className="text-sm font-medium text-foreground">Secure Payment</p>
-              <p className="text-xs text-muted-foreground">Protected by Vasaari</p>
+              <p className="text-sm font-medium text-foreground">Trusted Collaboration</p>
+              <p className="text-xs text-muted-foreground">Organized by Vasaari</p>
             </div>
           </div>
         </div>
@@ -47,15 +47,15 @@ const Hero = () => {
 
           {/* Headline */}
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-6 opacity-0 animate-fade-in-up animation-delay-100">
-            <span className="text-foreground">Create. Deal. Deliver.</span>
+            <span className="text-foreground">Create. Connect. Collaborate.</span>
             <br />
-            <span className="text-gradient">Securely.</span>
+            <span className="text-gradient">Seamlessly.</span>
           </h1>
 
           {/* Sub-headline */}
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed opacity-0 animate-fade-in-up animation-delay-200">
-            Vasaari is a trusted free-marketplace where anyone can create custom services, 
-            make real-world or online deals, and transact safely — all through a secure intermediary.
+            Vasaari is a trusted vendor marketplace where people can create custom services, 
+            collaborate with others, and manage deals with complete clarity and transparency.
           </p>
 
           {/* CTAs */}
@@ -77,23 +77,23 @@ const Hero = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                 </svg>
               </div>
-              <span className="text-sm font-medium text-muted-foreground">100% Secure</span>
+              <span className="text-sm font-medium text-muted-foreground">100% Transparent</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-8 h-8 rounded-lg bg-accent flex items-center justify-center">
                 <svg className="w-4 h-4 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                 </svg>
               </div>
-              <span className="text-sm font-medium text-muted-foreground">Zero Commission</span>
+              <span className="text-sm font-medium text-muted-foreground">Organized Workflows</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-8 h-8 rounded-lg bg-accent flex items-center justify-center">
                 <svg className="w-4 h-4 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
                 </svg>
               </div>
-              <span className="text-sm font-medium text-muted-foreground">Instant Transfers</span>
+              <span className="text-sm font-medium text-muted-foreground">Clear Communication</span>
             </div>
           </div>
         </div>

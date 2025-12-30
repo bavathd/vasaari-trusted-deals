@@ -1,9 +1,9 @@
 const Footer = () => {
   const links = [
     { label: "About", href: "#" },
-    { label: "How It Works", href: "#" },
+    { label: "How It Works", href: "#how-it-works" },
     { label: "FAQ", href: "#" },
-    { label: "Terms of Service", href: "#" },
+    { label: "Terms", href: "#" },
     { label: "Privacy Policy", href: "#" },
     { label: "Contact", href: "#" },
   ];
@@ -17,7 +17,7 @@ const Footer = () => {
           
           {/* Tagline */}
           <p className="text-background/70 mb-8 max-w-md">
-            Create custom services and transact with complete trust.
+            A safe, structured marketplace for custom services.
           </p>
 
           {/* Links */}

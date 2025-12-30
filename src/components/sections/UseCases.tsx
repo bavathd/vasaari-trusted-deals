@@ -1,13 +1,13 @@
-import { Wrench, Package, Laptop, FolderKanban, Users2, ShoppingCart, ListPlus } from "lucide-react";
+import { Wrench, Package, Laptop, FolderKanban, Share2, ListPlus, Users2 } from "lucide-react";
 
 const useCases = [
-  { icon: Wrench, text: "Hire local technicians or service providers" },
-  { icon: Package, text: "Buy custom products safely" },
-  { icon: Laptop, text: "Book freelancers without risk" },
-  { icon: FolderKanban, text: "Manage project-based payments" },
-  { icon: Users2, text: "Pay workers or creators via referrals" },
-  { icon: ShoppingCart, text: "Make safe deals with online sellers" },
-  { icon: ListPlus, text: "Create your own service listing and get paid securely" },
+  { icon: Wrench, text: "Hire technicians, helpers, or service providers" },
+  { icon: Package, text: "Get custom products or personalized services" },
+  { icon: Laptop, text: "Book freelancers or local workers" },
+  { icon: FolderKanban, text: "Manage task-based or project-based arrangements" },
+  { icon: Share2, text: "Coordinate deals from social media connections" },
+  { icon: ListPlus, text: "Create your own service listings" },
+  { icon: Users2, text: "Work with people you meet online or offline with clarity" },
 ];
 
 const UseCases = () => {
@@ -25,7 +25,7 @@ const UseCases = () => {
           </span>
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
             Perfect for{" "}
-            <span className="text-gradient">Every Deal</span>
+            <span className="text-gradient">Every Collaboration</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             From hiring local help to managing complex projects, Vasaari has you covered.

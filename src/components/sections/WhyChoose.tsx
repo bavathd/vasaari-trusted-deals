@@ -1,13 +1,13 @@
-import { Eye, Lock, Shield, Briefcase, Ban, Globe, Sparkles } from "lucide-react";
+import { Eye, Shield, Home, Briefcase, MessageSquareWarning, Globe, Sparkles } from "lucide-react";
 
 const benefits = [
-  { icon: Eye, text: "Transparent workflow" },
-  { icon: Lock, text: "Secure payments" },
-  { icon: Shield, text: "Protection for buyers & vendors" },
-  { icon: Briefcase, text: "Works for any custom service" },
-  { icon: Ban, text: "Eliminates scams" },
-  { icon: Globe, text: "Designed for real-world and online deals" },
-  { icon: Sparkles, text: "Fast, simple, and intuitive experience" },
+  { icon: Eye, text: "Organized and transparent workflow" },
+  { icon: Shield, text: "Protection for both vendors and buyers" },
+  { icon: Home, text: "A safe, neutral space to manage deals" },
+  { icon: Briefcase, text: "Works for any custom or personalized service" },
+  { icon: MessageSquareWarning, text: "Reduces misunderstandings" },
+  { icon: Globe, text: "Suitable for real-world and online interactions" },
+  { icon: Sparkles, text: "Fast, simple, and intuitive interface" },
 ];
 
 const WhyChoose = () => {
@@ -28,8 +28,8 @@ const WhyChoose = () => {
               <span className="text-gradient">Vasaari?</span>
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Built with security and simplicity at its core, Vasaari transforms how people 
-              make deals — whether online or in person.
+              Built with organization and clarity at its core, Vasaari transforms how people 
+              collaborate on deals — whether online or in person.
             </p>
           </div>
 
